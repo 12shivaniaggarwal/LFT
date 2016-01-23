@@ -1,1 +1,67 @@
+header{
+	width:95%;
+	margin:auto;
+background-size:auto;
+border:1px solid red;
+display:flex;
+background-color:black;
+flex-direction:row;
+justify-content:space-between;
+}
+header img
+{
+	margin:5px 5px;
+	border:1px solid white;
+}
+.firstlist 
+{
+list-style-type:none;
+display:flex;
+flex-direction:row;
+border:1px solid white;
+justify-content:flex-end;
 
+}
+li a
+{
+color:white;
+text-decoration:none;
+padding:10px;
+font-size:10px;
+}
+li a:hover
+{
+	color:yellow;
+	text-decoration:none;
+}
+#rest
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+h1,h2
+{
+margin:10px auto;}
+h1
+{
+    font-family:Montserrat;
+	font-weight:700;
+	font-size : 40;}
+h2
+{
+	font-family:"Droid Serif";
+	font-style:italic;
+	font-weight:200;
+	font-size : 30;}
+	
+#tellmemore
+{
+margin:10px auto;
+color:white;
+background-color :rgb(254, 210, 57);
+height:40px;
+width:150px;
+border:0;
+font-weight:800;
+}
